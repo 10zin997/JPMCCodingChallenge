@@ -11,7 +11,7 @@ import SwiftUI
 struct _0200207_TenzinWangyal_NYCSchoolsApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            NYCSchoolView()
         }
     }
 }
