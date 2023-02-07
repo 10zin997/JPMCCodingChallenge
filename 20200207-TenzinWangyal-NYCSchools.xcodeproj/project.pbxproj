@@ -8,17 +8,21 @@
 
 /* Begin PBXBuildFile section */
 		B124B51E29930A1800CFA510 /* _0200207_TenzinWangyal_NYCSchoolsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B124B51D29930A1800CFA510 /* _0200207_TenzinWangyal_NYCSchoolsApp.swift */; };
-		B124B52029930A1800CFA510 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B124B51F29930A1800CFA510 /* ContentView.swift */; };
+		B124B52029930A1800CFA510 /* NYCSchoolView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B124B51F29930A1800CFA510 /* NYCSchoolView.swift */; };
 		B124B52229930A1900CFA510 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B124B52129930A1900CFA510 /* Assets.xcassets */; };
 		B124B52529930A1900CFA510 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B124B52429930A1900CFA510 /* Preview Assets.xcassets */; };
+		B124B52C29930BFE00CFA510 /* ModelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = B124B52B29930BFE00CFA510 /* ModelData.swift */; };
+		B124B52E29930EFA00CFA510 /* Network.swift in Sources */ = {isa = PBXBuildFile; fileRef = B124B52D29930EFA00CFA510 /* Network.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		B124B51A29930A1800CFA510 /* 20200207-TenzinWangyal-NYCSchools.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "20200207-TenzinWangyal-NYCSchools.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B124B51D29930A1800CFA510 /* _0200207_TenzinWangyal_NYCSchoolsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _0200207_TenzinWangyal_NYCSchoolsApp.swift; sourceTree = "<group>"; };
-		B124B51F29930A1800CFA510 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		B124B51F29930A1800CFA510 /* NYCSchoolView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NYCSchoolView.swift; sourceTree = "<group>"; };
 		B124B52129930A1900CFA510 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B124B52429930A1900CFA510 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		B124B52B29930BFE00CFA510 /* ModelData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelData.swift; sourceTree = "<group>"; };
+		B124B52D29930EFA00CFA510 /* Network.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Network.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,7 +56,9 @@
 			isa = PBXGroup;
 			children = (
 				B124B51D29930A1800CFA510 /* _0200207_TenzinWangyal_NYCSchoolsApp.swift */,
-				B124B51F29930A1800CFA510 /* ContentView.swift */,
+				B124B51F29930A1800CFA510 /* NYCSchoolView.swift */,
+				B124B52B29930BFE00CFA510 /* ModelData.swift */,
+				B124B52D29930EFA00CFA510 /* Network.swift */,
 				B124B52129930A1900CFA510 /* Assets.xcassets */,
 				B124B52329930A1900CFA510 /* Preview Content */,
 			);
@@ -137,8 +143,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B124B52029930A1800CFA510 /* ContentView.swift in Sources */,
+				B124B52029930A1800CFA510 /* NYCSchoolView.swift in Sources */,
 				B124B51E29930A1800CFA510 /* _0200207_TenzinWangyal_NYCSchoolsApp.swift in Sources */,
+				B124B52E29930EFA00CFA510 /* Network.swift in Sources */,
+				B124B52C29930BFE00CFA510 /* ModelData.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

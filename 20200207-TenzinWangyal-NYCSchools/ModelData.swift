@@ -7,6 +7,7 @@
 
 import Foundation
 struct SchoolData: Codable{
+    // Properties that hold the values for each field in the JSON data
     let dbn: String
     let school_name: String
     let num_of_sat_test_takers: String
